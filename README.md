@@ -5,13 +5,13 @@
 
 
 # Portfolio
-![image](https://github.com/Jrr1232/portfolio/assets/71472570/4e49850b-7d8d-4c90-814e-231e4109c6e4)
+![image](https://github.com/Jrr1232/ReactPortfolio/assets/71472570/ac36386b-d9d7-4118-a4f2-723106a1f5a3)
 
 
 ## 🤔 Introduction
 
 This is my portfolio webpage showing a couple of my projects. Enjoy the apps ! and download my resume. 👻
- <br/>🎯 URL - [https://jrr1232.github.io/PortfolioPage/ ](https://jrr1232.github.io/portfolio/)
+ <br/>🎯 URL - https://eclectic-cucurucho-42d8d5.netlify.app/Portfolio
 
 
 
