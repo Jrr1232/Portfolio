@@ -6,10 +6,10 @@ function Header() {
   return (
     <header>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
+        <Grid item  sm={6}>
           <Navigation />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item sm={6}>
           <Typography variant="h3" align="center">
             Welcome To My Page
           </Typography>

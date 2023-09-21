@@ -1,0 +1,63 @@
+[ 
+    
+{
+    "title":"TechBlog",
+    "bio":"API/NoSQL",
+    "imgPath":"tech-blog.png",
+    "URL":"https://techblogger1304-ba9d7a32b48f.herokuapp.com/",
+    "alt":"TechBlog",
+    "github":"https://github.com/Jrr1232/Tech-Blog"
+
+},
+{
+        "title":"SunRise",
+        "bio":"API",
+        "imgPath":"VaporWave.jpg",
+        "URL":"https://bda2013.github.io/riseUp/",
+        "alt":"Sunrise",
+        "github":"https://github.com/Jrr1232/riseUp"
+
+    },
+    
+    {
+        "title":"Clouds",
+        "bio":"Web API",
+        "imgPath":"weatherApp.jpg",
+        "URL":"https://jrr1232.github.io/weatherApp/",
+        "alt":"Clouds",
+        "github":"https://github.com/Jrr1232/weatherApp"
+
+    },
+    
+    
+    
+    {
+        "title":"JS.Test",
+        "bio":"Javascript",
+        "imgPath":"JavaScript-logo.png",
+        "URL":"https://jrr1232.github.io/jsTest/",
+        "alt":"Test",
+        "github":"https://github.com/Jrr1232/jsTest"
+
+    },
+    
+    {
+        "title":"Encryptr",
+        "bio":"JavaScript",
+        "imgPath":"password-project.jpg",
+        "URL":"https://jrr1232.github.io/unique-Passwords/",
+        "alt":"Password Box",
+        "github":"https://github.com/Jrr1232/unique-Passwords"
+
+    },
+    
+    {
+        "title":"Worker",
+        "bio":"Web API",
+        "imgPath":"scheduler.png",
+        "URL":"https://jrr1232.github.io/daySchedule/",
+        "alt":"Schedule",
+        "github":"https://github.com/Jrr1232/daySchedule"
+
+    }
+]

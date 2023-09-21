@@ -1,18 +1,36 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
-function Project(){
-<Card>
-            <a href="https://bda2013.github.io/riseUp">
+import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia'; 
+import '../App.css'; // Import the CSS file
+
+function Project(props) {
+  console.log(props.projectData);
+    
+  return (
+    <Grid container direction="column" justify="center" className='cards'>
+      <Grid item sm={6} className='cards'>
+        <Card className="cards">
+          <a href={props.projectData ? props.projectData.URL : ""}>
+            <div className="card-media">
               <CardMedia
                 component="img"
-                alt="Project 1"
+                alt={props.projectData ? props.projectData.alt : ""}
                 height="140"
-                image="/weather.png"
+                image={props.projectData ? props.projectData.imgPath : ""}
               />
-            </a>
-            <CardContent>
-              {/* Add project details or description here */}
-            </CardContent>
-          </Card>
+              <div className="overlay-text">
+                {props.projectData ? props.projectData.title : ""}
+                <div>
+                {props.projectData ? props.projectData.bio : ""}
+                </div>
+              </div>
+            </div>
+          </a>
+        </Card>
+      </Grid>
+    </Grid>
+  );
 }
+
 export default Project;

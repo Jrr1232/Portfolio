@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import '../App.css';
+import { Container, Typography, TextField, Button, Grid } from '@mui/material';
+
 
 function Contact() {
   // Here we set state variables for userName, message, and emailAddress using `useState`
@@ -42,32 +44,51 @@ function Contact() {
   };
 
   return (
-    <div className="container text-center">
-      <h1>Hello {userName}</h1>
-      <form className="form" onSubmit={handleFormSubmit}>
-        <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Name"
-        />
-        <input
-          value={emailAddress}
-          name="email"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Email"
-        />
-        <textarea
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          placeholder="Message"
-        />
-        <button type="submit">Submit</button>
+    <Container maxWidth="sm">
+<h1 class="contact-title">        Contact Me
+      </h1>
+      <form onSubmit={handleFormSubmit}>
+        <Grid container spacing={2}>
+          <Grid item >
+            <TextField
+              fullWidth
+              label="Name"
+              name="userName"
+              value={userName}
+              onChange={handleInputChange}
+              variant="outlined"
+            />
+          </Grid>
+          <Grid item >
+            <TextField
+              fullWidth
+              label="Email"
+              name="emailAddress"
+              value={emailAddress}
+              onChange={handleInputChange}
+              variant="outlined"
+            />
+          </Grid>
+          <Grid item >
+            <TextField
+              fullWidth
+              label="Message"
+              name="message"
+              value={message}
+              onChange={handleInputChange}
+              variant="outlined"
+              multiline
+              rows={4}
+            />
+          </Grid>
+          <Grid item >
+            <Button type="submit" variant="contained" color="primary">
+              Submit
+            </Button>
+          </Grid>
+        </Grid>
       </form>
-    </div>
+    </Container>
   );
 }
 

@@ -9,7 +9,10 @@ import './App.css';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio.jsx';
 import Contact from './pages/Contact.jsx';
+import Resume from './pages/Resume.jsx';
+
 import 'font-awesome/css/font-awesome.min.css'; // Import Font Awesome CSS
+
 
 
 
@@ -32,6 +35,10 @@ const router = createBrowserRouter([
     {
       path: '/Contact',
       element: <Contact/>,
+    },
+    {
+      path: '/Resume',
+      element: <Resume/>,
     },
     
     ]
