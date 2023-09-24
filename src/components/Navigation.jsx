@@ -10,10 +10,10 @@ function Navigation() {
 
       <Grid item>
         <ul className="links">
-          <li><a href="/">About Me</a></li>
-          <li><a href="/Portfolio">Portfolio</a></li>
-          <li><a href="/Contact">Contact Me</a></li>
-          <li><a href="/Resume">Resume</a></li>
+          <li><a href="/" id="about-me">About Me</a></li>
+          <li><a href="/Portfolio" id="portfolio">Portfolio</a></li>
+          <li><a href="/Contact" id="contact-me">Contact Me</a></li>
+          <li><a href="/Resume" id="resume">Resume</a></li>
         </ul>
       </Grid>
     </Grid>
