@@ -22,7 +22,7 @@ function Contact() {
       case 'message':
         setMessage(value);
         break;
-      case 'email':
+      case 'emailAddress':
         setEmailAddress(value);
         break;
       default:
@@ -31,13 +31,16 @@ function Contact() {
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
+    const recipient = 'Jrr232@gmail.com'; 
+    const subject = encodeURIComponent(`'Email Subject'`); 
+    const body = encodeURIComponent(`Hello,\n\n${message}`); 
+    const sender = `${emailAddress}`;
 
-    // Display a message with the user's information (you can customize this as needed)
-    alert(`Hello ${userName}! Your email is ${emailAddress} and your message is: ${message}`);
+    const mailtoUrl = `mailto:${recipient}?subject=${subject}&body=${body}&from=${sender}`;
+  
+    window.location.href = mailtoUrl;
 
-    // Clear the input fields
     setUserName('');
     setEmailAddress('');
     setMessage('');
