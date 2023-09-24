@@ -33,11 +33,10 @@ function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     const recipient = 'Jrr232@gmail.com'; 
-    const subject = encodeURIComponent(`'Email Subject'`); 
-    const body = encodeURIComponent(`Hello,\n\n${message}`); 
+    const body = encodeURIComponent(`Hello Joaquin,\n\n${message}`); 
     const sender = `${emailAddress}`;
 
-    const mailtoUrl = `mailto:${recipient}?subject=${subject}&body=${body}&from=${sender}`;
+    const mailtoUrl = `mailto:${recipient}?subject=&body=${body}&from=${sender}`;
   
     window.location.href = mailtoUrl;
 
