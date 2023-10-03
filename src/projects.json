@@ -1,17 +1,17 @@
 [ 
     
 {
-    "title":"TechBlog",
-    "bio":"API/NoSQL",
-    "imgPath":"tech-blog.png",
-    "URL":"https://techblogger1304-ba9d7a32b48f.herokuapp.com/",
-    "alt":"TechBlog",
-    "github":"https://github.com/Jrr1232/Tech-Blog"
+    "title":"Whispr..",
+    "bio":"Sign Up For This New Social Media !",
+    "imgPath":"whispr.png",
+    "URL":"https://whispr-cf4e46930867.herokuapp.com/",
+    "alt":"Sunrise",
+    "github":"https://github.com/Jrr1232/Whispr"
 
 },
 {
         "title":"SunRise",
-        "bio":"API",
+        "bio":"API/Check Sunrise based on location",
         "imgPath":"VaporWave.jpg",
         "URL":"https://bda2013.github.io/riseUp/",
         "alt":"Sunrise",
@@ -42,7 +42,7 @@
     },
     
     {
-        "title":"Encryptr",
+        "title":"Password Encryptr/",
         "bio":"JavaScript",
         "imgPath":"password-project.jpg",
         "URL":"https://jrr1232.github.io/unique-Passwords/",
