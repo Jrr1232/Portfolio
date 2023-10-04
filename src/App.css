@@ -78,7 +78,8 @@
 
 #intro {
   font-size: large;
-  color: teal;
+  color: black;
+  margin-bottom: 50px;
   margin-top: 0px;
   margin-left: 300px;
 }
@@ -176,34 +177,37 @@
 
 .center img {
   transition-duration: 0.3s;
-
-  height: 300px;
-  margin-bottom: 0px;
-  padding: 0px;
+  height: 200px;
 
 }
-
-
-.center img:hover {
-  height: 400px;
-
-
-}
-
-
-
-
 
 #descriptionUI {
-  margin-top: 0px;
   padding-top: 0px;
+  margin-top: 0px;
+
 }
 
 #functional {
-  margin-top: 0px;
-  padding-top: 50px;
-  margin-bottom: 30px;
+  padding-top: 0px;
+  margin-top: 10px;
+
 }
+
+#UI a :hover {
+  height: 300px;
+
+
+}
+
+#functional a :hover {
+  height: 300px;
+}
+
+
+
+
+
+
 
 
 .card-media {
