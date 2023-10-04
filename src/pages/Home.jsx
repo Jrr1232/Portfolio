@@ -14,8 +14,20 @@ function Home() {
         </Grid>
 
         <Grid item className='center' >
-          <p id="intro">Well-rounded Full Stack Developer capable of crafting end-to-end solutions that seamlessly blend, a minimalist design and functionality. <br/>Check out some of my projects in my Portfolio Page 🌱
+        <p id="intro">Well-rounded Full Stack Developer capable of crafting end-to-end solutions that seamlessly blend, a minimalist design and functionality. <br/>Check out some of my projects in my Portfolio Page 🌱
           </p>
+          <div id ="UI">
+            <a href ='https://eclectic-cucurucho-42d8d5.netlify.app/Portfolio'><img src ='UI.png'></img></a>
+            <p id="descriptionUI">
+            UI(X)Design
+          </p>
+          </div>
+          <div>
+          <a href ='https://eclectic-cucurucho-42d8d5.netlify.app/Portfolio'><img src ='functional1.jpeg'></img></a>
+            <p id="functional">
+              Functionality
+          </p>
+          </div>
         </Grid>
       </Grid>
     </div>
