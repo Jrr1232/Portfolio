@@ -23,7 +23,7 @@ function Home() {
           </p>
           </div>
           <div>
-          <a href ='https://jrr1232.github.io/unique-Passwords/'><img src ='functional1.jpeg'></img></a>
+          <a href ='https://jrr1232.github.io/weatherApp/'><img src ='functional1.jpeg'></img></a>
             <p id="functional">
               Functionality
           </p>
