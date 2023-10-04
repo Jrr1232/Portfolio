@@ -1,24 +1,164 @@
-.background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+/* Exo thin font from Google. */
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
 }
 
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+.background {
+  margin-top: 2px;
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.1s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 1.0s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 1.0s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 1.0s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+}
+
+#intro {
+  font-size: x-large;
+  color: teal;
+  margin-top: 0px;
+  margin-left: 300px;
+}
+
+
 .home-container {
+  /* Increase the animation duration (e.g., 10s) */
   margin-top: 40px;
   margin-left: 100px;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+.home-container p {
+  font-size: xx-large;
+  margin-top: 100px;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    background-position: left top;
+  }
+
+  25% {
+    background-position: right bottom;
+  }
+
+  50% {
+    background-position: left bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
 }
 
 .homepage-title {
   font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
   margin-left: 40px;
   border-bottom: 1px solid teal;
+  font-size: xx-large;
 
 }
+
+/* 
+
+.text-container h1 {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+
+  /* background-image: url("https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80"); 
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  /* animation: animate 150s ease-in-out infinite; 
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+} 
+*/
+
+.text-container {
+  margin-left: 20px;
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+.text-container p {
+  color: black;
+  font-weight: bolder;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
 
 
 .portfolio-title {
@@ -88,14 +228,15 @@
 
 
 #profile-pic {
-  height: 100px;
+  height: 200px;
   border-radius: 50%;
+  margin-right: 40px;
 }
 
 
 #navbar {
   padding: 0px;
-  height: 350px;
+  height: 100px;
   width: 100%;
   background-image: url('/header-background.jpg');
   background-size: 100%;
@@ -119,12 +260,14 @@
   list-style-type: none;
   margin-right: 80px;
   color: white;
+  padding-bottom: 10px;
 }
 
 .links li {
   font-family: 'Courier New', Courier, monospace;
   margin-right: 20px;
   display: inline;
+
 }
 
 .links li a {
@@ -265,6 +408,7 @@
   .title {
     display: none;
   }
+
 
 
 }

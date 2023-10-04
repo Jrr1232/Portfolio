@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio.jsx';
 import Contact from './pages/Contact.jsx';
 import Resume from './pages/Resume.jsx';
-
+<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet"></link>
 import 'font-awesome/css/font-awesome.min.css'; // Import Font Awesome CSS
 
 

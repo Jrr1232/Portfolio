@@ -13,8 +13,8 @@ function Home() {
           <h1 className="homepage-title">About me</h1>
         </Grid>
 
-        <Grid item >
-          <p id="intro">👋 Hi, my name is Joaquin Florencio and I'm interested in Machine Learning and Python. I'm currently learning Full Stack Web Development and have experience in CS. I am an avid snowboarder and I enjoy martial arts.🌱
+        <Grid item className='center' >
+          <p id="intro">Well-rounded Full Stack Developer capable of crafting end-to-end solutions that seamlessly blend, a minimalist design and functionality. <br/>Check out some of my projects in my Portfolio Page 🌱
           </p>
         </Grid>
       </Grid>
