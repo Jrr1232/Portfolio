@@ -184,9 +184,8 @@
 }
 
 
-.center a:hover+#descriptionUI {
-  display: block;
-  height: 200px;
+.center img:hover {
+  height: 400px;
 
 
 }
