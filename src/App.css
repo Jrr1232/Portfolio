@@ -409,6 +409,22 @@
     display: none;
   }
 
+  .text-container {
+    display: none;
+  }
 
+  .homepage-title {
+    display: none;
+  }
+
+  .home-container img {
+    display: none;
+  }
+
+  #intro {
+    font-size: medium;
+    margin-left: 0px;
+    margin-top: 200px;
+  }
 
 }
