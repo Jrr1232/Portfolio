@@ -291,6 +291,10 @@
   border-bottom: 1px solid teal;
 }
 
+ul li {
+  list-style: none;
+}
+
 #resume-title {
   color: rgba(6, 192, 205, 0.658);
   margin-bottom: 10px;
@@ -299,11 +303,13 @@
 }
 
 #resume-link {
+  list-style: none;
   font-size: small;
   margin-bottom: 50px;
 }
 
 #skills {
+
   font-size: xx-large;
 }
 
