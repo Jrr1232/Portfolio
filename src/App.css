@@ -152,6 +152,10 @@
   background-color: yellow;
 }
 
+.text-container a {
+  text-decoration: none;
+}
+
 .text-container p {
   color: black;
   font-weight: bolder;
@@ -193,15 +197,12 @@
 
 }
 
-#UI a :hover {
+#UI :hover img {
   height: 300px;
 
 
 }
 
-#functional a :hover {
-  height: 300px;
-}
 
 
 

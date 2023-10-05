@@ -17,13 +17,13 @@ function Home() {
         <p id="intro">Well-rounded Full Stack Developer capable of crafting end-to-end solutions that seamlessly blend, a minimalist design and functionality. <br/>Check out some of my projects in my Portfolio Page 🌱
           </p>
           <div id ="UI">
-            <a href ='https://whispr-cf4e46930867.herokuapp.com/'><img id = "UI" src ='UI.png'></img></a>
+         <img src ='UI.png'></img>
             <p id="descriptionUI">
             UI(X)Design
           </p>
           </div>
           <div id ="functional">
-          <a href ='https://jrr1232.github.io/unique-Passwords/'><img id ="functional" src ='functional1.jpeg'></img></a>
+          <img id ="functional" src ='functional1.jpeg'></img>
             <p id="functional">
               Functionality
           </p>

@@ -5,8 +5,8 @@ function Navigation() {
   return (
     <Grid container id="navbar" alignItems="center" justifyContent="space-between">
       <Grid item>
-      <div className="text-container">
-        <p>Joaquin Florencio</p>
+      <div className="text-container"><a href='/'>
+        <p>Joaquin Florencio</p></a>
   </div>
         </Grid>
 
