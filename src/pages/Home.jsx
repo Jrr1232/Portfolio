@@ -16,18 +16,19 @@ function Home() {
         <Grid item className='center' >
         <p id="intro">Well-rounded Full Stack Developer capable of crafting end-to-end solutions that seamlessly blend, a minimalist design and functionality. <br/>Check out some of my projects in my Portfolio Page 🌱
           </p>
-          <div id ="UI">
-         <img src ='UI.png'></img>
-            <p id="descriptionUI">
-            UI(X)Design
-          </p>
-          </div>
-          <div id ="functional">
-          <img id ="functional" src ='functional1.jpeg'></img>
-            <p id="functional">
-              Functionality
-          </p>
-          </div>
+          <div id="UI">
+  <img src="UI.png" id="UI-img" alt="UI Design Image"></img>
+  <p id="descriptionUI">
+    UI(X) Design
+  </p>
+</div>
+
+<div id="functional">
+  <img src="functional1.jpeg" id="functional-img" alt="Functional Image"></img>
+  <p id="functional-description">
+    Functionality
+  </p>
+</div>
         </Grid>
       </Grid>
     </div>

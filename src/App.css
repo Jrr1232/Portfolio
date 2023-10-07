@@ -167,11 +167,12 @@
 
 
 .portfolio-title {
-  margin-left: 250px;
+  margin-left: 950px;
   margin-top: 50px;
   margin-bottom: 70px;
   font-family: 'Courier New', Courier, monospace;
   border-bottom: 1px solid teal;
+  width: 330px;
 }
 
 .center {
@@ -197,19 +198,15 @@
 
 }
 
-.center :hover img {
-  height: 300px;
-
-
+#UI-img,
+#functional-img {
+  transition: transform 0.3s ease;
 }
 
-
-
-
-
-
-
-
+#UI-img:hover,
+#functional-img:hover {
+  transform: scale(1.2);
+}
 
 .card-media {
   position: relative;
@@ -401,6 +398,13 @@ ul li {
 
 
 @media (max-width: 768px) {
+  #descriptionUI {
+    display: none;
+  }
+
+  #functional {
+    display: none;
+  }
 
   #navbar {
     background-image: url('#');
@@ -410,7 +414,8 @@ ul li {
 
   .links {
     margin-left: 20px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
     font-size: 20px;
     width: 100%;
 
@@ -423,15 +428,19 @@ ul li {
     display: block;
     margin-bottom: 50px;
 
+
   }
 
   .links li a {
     color: black;
     font-size: 30px;
+    border-bottom: none;
 
 
 
   }
+
+
 
   #about-me {
     background-color: #F18F01;
@@ -447,6 +456,10 @@ ul li {
 
   #resume {
     background-color: #2E4057;
+  }
+
+  .center {
+    margin-top: 200px;
   }
 
   .title {
