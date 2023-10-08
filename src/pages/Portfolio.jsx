@@ -13,7 +13,7 @@ export default function Portfolio() {
       <h1 className='portfolio-title'>Portfolio</h1>
       
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }} className="center">
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
+        <div style={{ display: 'flex', flexDirection: 'row' }} id = "projects">
           {/* First Container */}
           <Grid
             container
@@ -21,6 +21,7 @@ export default function Portfolio() {
             justifyContent="center"
             alignItems="center"
             spacing={6}
+            
           >
             {firstThreeProjects.map((project, i) => (
               <Grid item key={i}>

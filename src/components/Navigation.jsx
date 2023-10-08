@@ -10,7 +10,7 @@ function Navigation() {
   </div>
         </Grid>
 
-      <Grid item>
+      <Grid item >
         <ul className="links">
           <li><a href="/" id="about-me">About Me</a></li>
           <li><a href="/Portfolio" id="portfolio">Portfolio</a></li>

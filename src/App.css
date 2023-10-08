@@ -192,9 +192,8 @@
 
 }
 
-#functional {
-  padding-top: 0px;
-  margin-top: 10px;
+#functional-description {
+  margin-top: 20px;
 
 }
 
@@ -398,13 +397,6 @@ ul li {
 
 
 @media (max-width: 768px) {
-  #descriptionUI {
-    display: none;
-  }
-
-  #functional {
-    display: none;
-  }
 
   #navbar {
     background-image: url('#');
@@ -413,18 +405,12 @@ ul li {
   }
 
   .links {
-    margin-left: 20px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    font-size: 20px;
-    width: 100%;
-
-
+    margin-top: 50px;
+    margin-left: 140px;
   }
 
-
-
   .links li {
+
     display: block;
     margin-bottom: 50px;
 
@@ -440,22 +426,33 @@ ul li {
 
   }
 
-
+  #profile-pic {
+    margin-top: 400px;
+    margin-left: 40px;
+  }
 
   #about-me {
     background-color: #F18F01;
+    border-bottom: none;
   }
 
   #portfolio {
+
     background-color: #048BA8;
+    border-bottom: none;
+
   }
 
   #contact-me {
     background-color: #99C24D;
+    border-bottom: none;
+
   }
 
   #resume {
     background-color: #2E4057;
+    border-bottom: none;
+
   }
 
   .center {
@@ -466,22 +463,45 @@ ul li {
     display: none;
   }
 
+
+
   .text-container {
-    display: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .portfolio-title {
+    margin-left: 40px;
+    margin-top: 450px;
+    border-bottom: none;
+    font-weight: lighter;
+    font-size: 50px;
+
   }
 
   .homepage-title {
-    display: none;
-  }
-
-  .home-container img {
-    display: none;
+    margin-top: 50px;
+    border-bottom: none;
+    font-size: 50px;
   }
 
   #intro {
     font-size: medium;
     margin-left: 0px;
-    margin-top: 200px;
+    margin-right: 10px;
+  }
+
+  .contact-title {
+    margin-top: 400px;
+    margin-left: 0px;
+    border: none;
+    font-size: 50px;
+    font-weight: lighter;
+
+  }
+
+  #resume-title {
+    margin-top: 400px;
   }
 
 }
