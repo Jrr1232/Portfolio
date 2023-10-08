@@ -5,7 +5,7 @@
 
 
 # Portfolio
-![image](https://github.com/Jrr1232/ReactPortfolio/assets/71472570/ac36386b-d9d7-4118-a4f2-723106a1f5a3)
+![Screenshot 2023-10-07 104545](https://github.com/Jrr1232/Portfolio/assets/71472570/fe2f5ba4-ffdc-4a40-820e-99f7533f399b)
 
 
 ## 🤔 Introduction
