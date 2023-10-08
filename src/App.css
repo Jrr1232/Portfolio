@@ -406,7 +406,7 @@ ul li {
 
   .links {
     margin-top: 50px;
-    margin-left: 140px;
+    margin-left: 100px;
   }
 
   .links li {
@@ -492,7 +492,7 @@ ul li {
   }
 
   .contact-title {
-    margin-top: 400px;
+    margin-top: 450px;
     margin-left: 0px;
     border: none;
     font-size: 50px;
@@ -501,7 +501,7 @@ ul li {
   }
 
   #resume-title {
-    margin-top: 400px;
+    margin-top: 450px;
   }
 
 }
