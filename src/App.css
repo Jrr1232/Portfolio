@@ -504,4 +504,14 @@ ul li {
     margin-top: 450px;
   }
 
+  #skills ul :hover .list-item {
+    transform: none;
+
+  }
+
+  #skills2 ul :hover .list-item {
+    transform: none;
+
+  }
+
 }
